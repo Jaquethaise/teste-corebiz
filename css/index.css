@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+body {
+  font-family: Nunito; }
+
 .head {
-  position: absolute;
   width: 100%;
   height: 80px;
   left: 0px;
@@ -8,3 +11,168 @@
   display: flex;
   align-items: center;
   justify-content: center; }
+  .head-logo {
+    margin-right: 132px;
+    width: 170px;
+    height: 40px; }
+  .head-busca {
+    margin-right: 45px; }
+    .head-busca input {
+      border-style: none none solid none;
+      width: 718px; }
+    .head-busca input:focus {
+      outline: none; }
+    .head-busca button {
+      background: url("../public/magnifying-glass 1.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 18px;
+      height: 18px;
+      border: none;
+      margin-left: -25px; }
+  .head-conta {
+    margin-right: 21px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #7a7a7a;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px; }
+    .head-conta img {
+      margin-right: 7px; }
+  .head-conta:visited {
+    color: #7a7a7a; }
+  .head-cart {
+    display: flex;
+    align-items: center;
+    text-decoration: none; }
+    .head-cart img {
+      margin-right: 9px; }
+    .head-cart #shopping-list {
+      width: 14px;
+      height: 14px;
+      background-color: #f8475f;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 14px; }
+
+.newsletter, .newsletter-sucess {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  height: 146px;
+  left: 0px;
+  bottom: 222px; }
+  .newsletter form, .newsletter-sucess form {
+    margin-bottom: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .newsletter form input, .newsletter-sucess form input {
+      width: 280px;
+      height: 48px;
+      border-radius: 5px;
+      border-style: none;
+      padding: 0px 16px;
+      margin-right: 8px; }
+    .newsletter form button, .newsletter-sucess form button {
+      background-color: black;
+      width: 140px;
+      height: 48px;
+      border-radius: 5px;
+      color: white; }
+  .newsletter button, .newsletter-sucess button {
+    width: 328px;
+    height: 48px;
+    color: white;
+    background-color: black;
+    padding: 20px 0px; }
+
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black; }
+  .foot-local {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 250px; }
+    .foot-local span {
+      color: white;
+      font-size: 13px;
+      line-height: 12px;
+      margin-bottom: 15px; }
+    .foot-local img {
+      width: 44.94px;
+      height: 5px;
+      margin-bottom: 15px; }
+    .foot-local h2 {
+      color: white; }
+  .foot-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 331px; }
+    .foot-contato_item {
+      margin: 12.5px 0px; }
+
+.prateleira {
+  margin-bottom: 35px; }
+  .prateleira-itens {
+    height: 353px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .prateleira-itens img {
+      width: 216px;
+      height: 200px; }
+    .prateleira-itens-info {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 216px; }
+      .prateleira-itens-info p {
+        text-align: center;
+        font-size: 12px;
+        width: 60%; }
+
+#buy-button {
+  background-color: black;
+  color: white;
+  padding: 10px 45px;
+  text-decoration: none;
+  margin-top: -5px;
+  text-transform: uppercase;
+  border-radius: 5px; }
+
+.news-erro1, .news-erro2 {
+  color: red;
+  display: none; }
+
+.slick-dots li.slick-active button:before {
+  color: #f8475f !important; }
+
+.slick-dots li button:before {
+  opacity: 0.75 !important;
+  color: #bdbdbd !important; }
+
+.slick-dots li {
+  margin: 0px !important; }
+
+.slick-dots {
+  bottom: 13px !important; }

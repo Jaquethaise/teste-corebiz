@@ -16,27 +16,84 @@
 </head>
 <body>
     <header class='head'>
-        <img src="../public/logo-corebiz-preto-cinza.png" alt="logo-corebiz-preto-cinza">
-        <div>
-            <input type="text">
+        <img src="../public/logo-corebiz-preto-cinza.png" class='head-logo' alt="logo-corebiz-preto-cinza">
+        <div class='head-busca'>
+            <input placeholder="O que está procurando?" type="text">
             <button>
-                buscar
+                
             </button>
         </div>
-        <a href="#">
-            <span> Minha conta</span>
+        <a class='head-conta' href="#">
             <img src="../public/user 1.png" alt="logo-user1">
+            <span> Minha conta</span>
         </a>
-        <a href="#">
+        <a class='head-cart' href="#">
             <img src="../public/shopping-cart 1.png" alt="shopping-cart">
-            <div>
-
+            <div id="shopping-list">
+               0 
             </div>
         </a>
 
     </header>
-    <footer>
+    <div class="banners">
+        <img src="../public/Banner.jpg" alt="banner">
+        <img src="../public/Banner.jpg" alt="banner">
+        <img src="../public/Banner.jpg" alt="banner">
+        <img src="../public/Banner.jpg" alt="banner">
+    </div>
+    <div class="prateleira" id="prateleira">
 
+
+    </div>
+    <div class="newsletter">
+        <h2 >Participe de nossas news com promoções e novidades!</h2>
+        <form action="" method="post">
+            <div>
+                <input id='news-nome' type="text" placeholder="Digite seu nome">
+                <p class="news-erro1">
+                    Preencha com seu nome completo
+                </p>
+            </div>
+            <div>
+                <input id='news-email'type="email" placeholder="Digite seu email">
+                <p class="news-erro2">
+                    Preencha com um e-mail válido
+                </p>
+            </div>   
+            <button id='news-button'>
+                Eu quero!
+            </button>
+        </form>
+          
+    </div>
+    <div class="newsletter-sucess" style="display: none;">
+        <h2>
+            Seu e-mail foi cadastrado com sucesso!
+        </h2>
+        <p>
+            A partir de agora você receberá as novidade e ofertas exclusivas.
+        </p>
+        <button>
+            Cadastrar novo e-mail
+        </button>
+    </div>
+    </div>
+    <footer class="foot">
+        <div class="foot-local">
+            <h2>Localização</h2>
+            <img src="../public/Line.png" alt="line">
+            <span>Avenida Andrômeda, 2000. Bloco 6 e 8</span>
+            <span>Alphavile SP </span>
+            <span>brasil@corebiz.ag</span>
+            <span>+55 11 3090 1039</span>
+        </div>
+        <div class="foot-contato">
+            <div class="foot-contato_item"><a href=""><img src="../public/Entre em Contato.png" alt="contato"></a></div>
+            <div class="foot-contato_item"><a href=""><img src="../public/Consultor.png" alt="Consultor"></a></div>
+        </div>
+        <div class="foot-empresa">
+            <img src="../public/Logos Footer.png" alt="logos">
+        </div>
     </footer>
 </body>
 </html>
